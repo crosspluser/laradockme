@@ -6,4 +6,4 @@ services:
 
     applications:
       volumes:
-        - ${APPLICATION}/laraweb/:/var/www
+        - ${APPLICATION}:/var/www
